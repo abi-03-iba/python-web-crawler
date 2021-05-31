@@ -43,7 +43,7 @@ def time24HoursAgo() : #it calculates time for 24 hrs back
         return BackTo24Hours                
 
 if __name__ == '__main__' :
-        root="whatever the website you want to crawl paste the url-->www.google.com
+        root="whatever the website you want to crawl paste the url"-->www.google.com
         req = Request(root)
         html_page = urlopen(req)
         soup = BeautifulSoup(html_page,"lxml")
