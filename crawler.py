@@ -3,7 +3,6 @@ from urllib.request import Request, urlopen
 from config import root
 import db
 from bs4 import BeautifulSoup
-
 def crawl(link):
     response=validate(link) #validating the link
     links=extractlinks(link) #extracting the href links 
